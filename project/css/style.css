@@ -1,7 +1,7 @@
 body {
 	background: #ccc;
 	max-width: 960px;
-	margin: 5px auto;
+	margin: 0px auto;
 }
 
 
@@ -11,43 +11,57 @@ body {
 
 #container {
 	width: 100%;
+	height: 900px;
 	margin: 0 auto;
-	background-color: #fff;
-	box-shadow: 0 0 5px #999;
-	-moz-box-shadow: 0 0 5px #999;
-	-webkit-box-shadow: 0 0 5px #999;
+	background: #ccc;
 }
 
 /*--------------------------BEGIN HEADER-----------------------*/
 header {
 	width: 100%;
-	height: 75px;
-	background: url(../images/);
-	background-color: #9c9797;
-	box-shadow: 0 2px 3px #999;
-	-moz-box-shadow: 0 2px 3px #999;
-	-webkit-box-shadow: 0 2px 3px #999;
+	height: 160px;
+	background-color: #dddddd;
+	margin: 0 auto;
+	overflow: hidden;	
 }
 
 
 /*--------------BEGIN LOGO-----------------------*/
 
+#logo {
+	width: 100%;
+	height: 100px;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+}
 
 /*-----------------END LOGO-----------------------*/
 
 
+
 /*---------------BEGIN NAV-----------------------*/
 nav {
+	margin: 0px auto;
 	width: 100%; 
-	height 75px;
-	float: left;
+	margin-left: 5.20833333333333%;
+	
+/*	background-color: #9c9797;
+	box-shadow: 0 2px 3px #999;
+	-moz-box-shadow: 0 2px 3px #999;
+	-webkit-box-shadow: 0 2px 3px #999;
+	border-radius: 100px 100px 0 0;
+	overflow: hidden;
+	background: #5d5d5d;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eaf1fa', endColorstr='#5d5d5d');
+	background: -webkit-gradient(linear, left top, left bottom, from(#eaf1fa), to(#5d5d5d));
+	background: -moz-linear-gradient(top, #eaf1fa, #5d5d5d); */
 }
 
 nav ul li {
+	text-align: center;
 	display: block;
-	padding-left: 1.5em;
-	width: 12%;
-	margin-top: 35px;
+	padding-left: 0;
+	width: 120px;
 	float: left;
 	font: 1.3em "myriad pro", "sans serif";
 }
@@ -106,3 +120,16 @@ a:active {
 
 
 /*--------------------BEGIN MAIN CONTENT------------------------*/
+
+footer {
+	width: 100%;
+	background-color: #dddddd;
+	overflow: hidden;
+}
+
+footer ul li {
+	font-weight: bold;
+	list-style-type: none;
+	float: left;
+	margin-left: 5.20833333333333%;
+}
