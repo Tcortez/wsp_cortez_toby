@@ -90,9 +90,9 @@ a:active {
 
 .current{
 	color:#ffffff !important;
-	text-shadow: 2px 2px 2px #ff00;
-	-moz-text-shadow: 2px 2px 2px #ff00;
-	-webkit-text-shadow: 2px 2px 2px #ff00;
+	text-shadow: 2px 2px 2px #ff0000 !important;
+	-moz-text-shadow: 2px 2px 2px #ff0000 !important;
+	-webkit-text-shadow: 2px 2px 2px #ff0000 !important;
 }
 
 /*------------------END NAV-----------------------*/
