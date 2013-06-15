@@ -1,57 +1,6 @@
-/*-----------------------------Begin Reset---------------------------------------------*/
+@import url("normalize.css");
 
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/*------------------------------End Reset---------------------------------------------*/
-
+/*
 body {
 	background: #ccc;
 	max-width: 960px;
@@ -60,16 +9,14 @@ body {
 
 
 
-
-/*-----------------------------------BEGIN CONTAINER------------------------------------*/
-
 #container {
 	width: 100%;
 	margin: 0 auto;
 	background: #dddddd;
+
+	
 }
 
-/*--------------------------BEGIN HEADER-----------------------*/
 header {
 	width: 100%;
 	height: 160px;
@@ -79,8 +26,6 @@ header {
 }
 
 
-/*--------------BEGIN LOGO-----------------------*/
-
 #logo {
 	width: 100%;
 	height: 100px;
@@ -88,26 +33,10 @@ header {
 	background-repeat: no-repeat;
 }
 
-/*-----------------END LOGO-----------------------*/
 
-
-
-/*---------------BEGIN NAV-----------------------*/
 nav {
 	margin: 0px auto;
 	width: 80%; 
-	/*margin-left: 5.20833333333333%;*/
-	
-/*	background-color: #9c9797;
-	box-shadow: 0 2px 3px #999;
-	-moz-box-shadow: 0 2px 3px #999;
-	-webkit-box-shadow: 0 2px 3px #999;
-	border-radius: 100px 100px 0 0;
-	overflow: hidden;
-	background: #5d5d5d;
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eaf1fa', endColorstr='#5d5d5d');
-	background: -webkit-gradient(linear, left top, left bottom, from(#eaf1fa), to(#5d5d5d));
-	background: -moz-linear-gradient(top, #eaf1fa, #5d5d5d); */
 }
 
 nav ul li {
@@ -162,17 +91,8 @@ a:active {
 	-webkit-text-shadow: 2px 2px 2px #ff0000 !important;
 }
 
-/*------------------END NAV-----------------------*/
 
 
-
-
-/*----------------------------END HEADER------------------------*/
-
-
-
-
-/*--------------------BEGIN MAIN CONTENT------------------------*/
 
 footer {
 	width: 100%;
@@ -188,3 +108,4 @@ footer ul li {
 	float: left;
 	margin-left: 7.20833333333333%;
 }
+*/
