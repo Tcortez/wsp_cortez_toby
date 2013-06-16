@@ -25,25 +25,13 @@
 			</nav>
 						
 		</header>
-				 
-		<section>
-				
-			<article>
-				<h2>Live Chat with VCR</h2>
-				<img src="images/" title="" alt="" >
-			</article>
-					
-			<aside>
-					
-			</aside>
-				
-		</section> 
 		
 		<section>
 				
 			<article>
 				<h2>Call VCR</h2>
 				<a href="#"><img src="images/contact_us.png" title="" alt="" ></a>
+                <p>407 595 7846</p>
 			</article>
 					
 			<aside>
@@ -60,7 +48,45 @@
 			</article>
 					
 			<aside>
-					
+				<div id="form">
+			<fieldset class="sign_up_form">	
+				<form method="post" action="mailto:Tcortez@fullsail.edu">					
+						<fieldset class="contact">
+							<legend>Contact Information</legend>
+								<div id="form_first">
+									<label for="name_first">First Name:</label>
+									<input type="text" name="name_first" id="name_first" required="required"/>
+								</div>
+								
+								<div id="form_last">
+									<label for="name_last">Last Name:</label>
+									<input type="text" name="name_last" id="name_last" required="required"/>
+								</div>
+								
+								<div id="form_phone">
+									<label for="phone">Phone Number:</label>
+									<input type="tel" name="phone" id="phone" maxlength="13" size="13" pattern="[\(]\d{3}[\)]\d{3}[\-]\d{4}" required="required"/> 
+								</div>
+								
+								<div id="form_email">
+									<label for="email">Email:</label>
+									<input type="email" name="email" id="email" required="required"/>
+								</div>
+						</fieldset>
+						
+						<div id="form_hear">
+							<fieldset class="hear">
+								<legend>Describe Your Computer Problem.</legend>
+                                	<textarea id="myTextArea" rows = "10" cols = "80"></textarea>
+							</fieldset>
+						</div>
+
+						<div id="form_submit">
+							<button type="submit" name="sumbmit" class="button">Submit</button>
+						</div>
+					</form>
+				</fieldset><!-- End of Form FieldSet-->
+			</div>
 			</aside>
 				
 		</section> 
@@ -73,7 +99,7 @@
 					<li class="resview">All Rights Reserved</li>
 				</ul>
 		</footer>
-		
+		</div>
 	</body>
 	
 </html>
