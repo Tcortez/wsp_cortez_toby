@@ -1,0 +1,13 @@
+#body {
+	width: 100%;
+	margin: 5px auto;
+}
+
+#container {
+				width: 1020px;
+				margin: 0 auto;
+				background-color: #fff;
+				box-shadow: 0 0 15px #ccc;
+				-moz-box-shadow: 0 0 15px #ccc;
+				-webkit-box-shadow: 0 0 15px #ccc;
+			}
