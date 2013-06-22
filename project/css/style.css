@@ -97,6 +97,9 @@ a:active {
 	-webkit-text-shadow: 2px 2px 2px #ff0000 !important;
 }
 
+#social {
+	clear: left;
+}
 
 /*------------------Begin Home Page--------------------*/
 .why {
