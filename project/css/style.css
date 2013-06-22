@@ -302,6 +302,9 @@ footer {
 }
 
 footer ul li {
+	color: #ff6633;
+	text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+            -1px 1px 0 #000, 3px 3px 5px #000;
 	font-weight: bold;
 	list-style-type: none;
 	float: left;
