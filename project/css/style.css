@@ -14,9 +14,9 @@ a:focus {
 
 #container {
 	width: 100%;
-	margin-top: 166px;
-
-	background: #dddddd;
+	margin-top: 146px;
+	padding-top: 20px;
+	background: #ccc;
 }
 
 header {
@@ -48,8 +48,8 @@ header {
 
 
 nav {
-	margin: -20px auto;
-	width: 600px;
+	margin: 0px auto;
+	width: 800px;
 }
 
 nav ul li {
