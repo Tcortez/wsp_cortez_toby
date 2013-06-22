@@ -119,6 +119,12 @@ a:active {
 	float: right;
 }
 
+#brands {
+	width: 530px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
 .certs {
 	padding-left: 1em;
 	padding-right: 1em;
