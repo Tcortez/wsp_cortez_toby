@@ -97,6 +97,8 @@ a:active {
 	-webkit-text-shadow: 2px 2px 2px #ff0000 !important;
 }
 
+
+/*------------------Begin Home Page--------------------*/
 .why {
 	margin-top: 80px;
 	margin-bottom: 40px;
@@ -206,6 +208,76 @@ a:active {
 	margin: 0 auto;
 	overflow: hidden;
 }
+
+/*------------------End Home Page--------------------*/
+
+/*------------------Begin About Page--------------------*/
+
+.mission {
+	
+}
+
+.our_start {
+	
+}
+
+/*------------------End About Page--------------------*/
+
+/*------------------Begin Services Page--------------------*/
+
+.residential {
+	
+}
+
+.commercial {
+	
+}
+
+/*------------------End Services Page--------------------*/
+
+/*------------------Begin Resources Page--------------------*/
+
+.help {
+	
+}
+
+.virus {
+	
+}
+
+/*------------------End Resources Page--------------------*/
+
+/*------------------Begin News Page--------------------*/
+
+.local_news{
+	
+}
+
+.ind_news {
+	
+}
+
+/*------------------End News Page--------------------*/
+
+/*------------------Begin Contact Page--------------------*/
+
+.call {
+	
+}
+
+.email {
+	
+}
+/*------------------End Contact Page--------------------*/
+
+
+
+
+
+
+
+
+
 
 
 
