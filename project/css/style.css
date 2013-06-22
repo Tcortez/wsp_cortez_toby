@@ -168,11 +168,37 @@ a:active {
 	overflow: hidden;
 }
 
+.tech_names {
+	margin: 20px auto;
+	width: 800px;
+}
+
+.tech_names ul li {
+	margin-right: 35px;
+	float: left;
+	font: 1.5em "myriad pro", "sans serif";
+}
+
+.tech_names ul {
+	list-style-type: none;
+}
+
+.tech_names a{
+	text-decoration: none;
+}
+
+.techs p {
+	text-align: center;
+	padding-top: 10px;
+	clear: left;
+}
+
 .service {
-	margin-top: 80px;
+	margin-top: 40px;
 	margin-bottom: 40px;
 	padding-left: 1em;
 	padding-right: 1em;
+	text-align: center;
 }
 
 .service aside {
@@ -181,10 +207,13 @@ a:active {
 	overflow: hidden;
 }
 
+
+
 hr {
 	width: 85%;
 	margin: 0 auto;
 	color: #ccc;
+	clear: both;
 }
 
 
