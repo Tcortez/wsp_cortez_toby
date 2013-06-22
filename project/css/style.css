@@ -54,6 +54,9 @@ nav ul li {
 	font: 1.5em "myriad pro", "sans serif";
 }
 
+nav ul li:hover {
+	margin-top: -5px;	
+}
 nav ul {
 	list-style-type: none;
 }
@@ -77,7 +80,7 @@ a:visited {
 }
 
 a:hover {
-	color: #fff;	
+	color: #fff;
 	text-shadow: 2px 2px 2px #000;
 	-moz-text-shadow: 2px 2px 2px #000;
 	-webkit-text-shadow: 2px 2px 2px #000;
@@ -101,6 +104,7 @@ a:active {
 	width: 600px;
 	margin: 0 auto;
 	clear: left;  
+	border: 1px solid black;
 }
 
 /*------------------Begin Home Page--------------------*/
