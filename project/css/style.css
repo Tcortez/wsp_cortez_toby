@@ -45,7 +45,7 @@ header {
 
 nav {
 	margin: -20px auto;
-	width: 800px;
+	width: 750px;
 }
 
 nav ul li {
@@ -101,7 +101,7 @@ a:active {
 }
 
 #social {
-	width: 600px;
+	width: 400px;
 	margin: 0 auto;
 	clear: left;  
 	border: 1px solid black;
