@@ -37,15 +37,13 @@ header {
 	margin-left: 10px;
 	width: 422px;
 	float: left;
-	position: relative;
 }
 
 #logo2 {
 	margin-top: 5px;
 	width: 422px;
 	float: right;
-	position: relative;
-
+	margin-right: 450px;
 }
 
 
