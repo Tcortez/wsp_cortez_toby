@@ -103,10 +103,10 @@ a:active {
 	padding-left: 1em;
 	padding-right: 1em;
 }
-/*
+
 .why h2 {
 	text-align: center;
-}*/
+}
 
 .why article {
 	width: 54.6875%;
@@ -115,7 +115,7 @@ a:active {
 .why img {
 	margin-top: 0px;
 	width: 445px;
-	height: 300px;
+	height: 320px;
 	float: right;
 }
 
