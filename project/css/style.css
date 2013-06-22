@@ -14,16 +14,20 @@ a:focus {
 
 #container {
 	width: 100%;
-	margin: 0 auto;
+	margin-top: 166px;
+
 	background: #dddddd;
 }
 
 header {
-	width: 100%;
-	background-color: #dddddd;
+	position:fixed; 
+	height: 166px;
+	top:0px; 
+	margin:auto; 
+	z-index:100000; 
+	width:100%;
 	background-image: url(../images/header_bg.jpg);
 	background-repeat: no-repeat;
-	margin: 0 auto;
 	overflow: hidden;	
 }
 
@@ -33,18 +37,21 @@ header {
 	margin-left: 10px;
 	width: 422px;
 	float: left;
+	position: relative;
 }
 
 #logo2 {
 	margin-top: 5px;
 	width: 422px;
 	float: right;
+	position: relative;
+
 }
 
 
 nav {
 	margin: -20px auto;
-	width: 800px;
+	width: 600px;
 }
 
 nav ul li {
