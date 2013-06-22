@@ -53,52 +53,6 @@ nav ul li {
 	font: 1.5em "myriad pro", "sans serif";
 }
 
-/*.tablist {
-    list-style-typ:none; 
-    height:2em;
-    padding:0; 
-    margin:0; 
-    border: none;
-}
-
-.tablist li {
-    float:left; 
-    margin-right:0.13em; 
-}
-
-.tablist li a {
-    display:block;
-    padding:0 1em;
-    text-decoration:none;
-    border:0.06em solid #000;
-    border-bottom:0;
-    font:bold 0.88em/2em arial,geneva,helvetica,sans-serif;
-    color:#000;
-    background-color:#ccc;
-
-    webkit-border-top-right-radius:0.50em;
-    -webkit-border-top-left-radius:0.50em;
-    -moz-border-radius-topright:0.50em;
-    -moz-border-radius-topleft:0.50em;
-    border-top-right-radius:0.50em;
-    border-top-left-radius:0.50em;
-}
-
-.tablist li a:hover {
-    background:#3cf; 
-    color:#fff;
-    text-decoration:none;
-}
-
-.tablist li#current a {
-    background-color: #777;
-    color: #fff;
-}
-.tablist li#current a:hover {
-    background: #39C;
-}*/
-
-
 nav ul {
 	list-style-type: none;
 }
