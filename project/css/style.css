@@ -1,51 +1,54 @@
 @import url("normalize.css");
 
-/*
+
 body {
 	background: #ccc;
 	max-width: 960px;
 	margin: 0px auto;
 }
 
+a:focus {
+	outline: none;
+}
 
 
 #container {
 	width: 100%;
 	margin: 0 auto;
 	background: #dddddd;
-
-	
 }
 
 header {
 	width: 100%;
-	height: 160px;
 	background-color: #dddddd;
+	background-image: url(../images/header_bg.jpg);
+	background-repeat: no-repeat;
 	margin: 0 auto;
 	overflow: hidden;	
 }
 
 
 #logo {
-	width: 100%;
-	height: 100px;
-	background-image: url(../images/logo.png);
-	background-repeat: no-repeat;
+	margin-top: 5px;
+	width: 487px;
+	height: 187px;
 }
 
 
 nav {
-	margin: 0px auto;
-	width: 80%; 
+	
+	width: 490px;
+	margin-top: -90px;
+	padding-left: 0px;
+	float: right;
 }
 
 nav ul li {
-	text-align: center;
-	display: block;
-	padding-left: 0;
-	width: 120px;
+	
+	margin-left: -30px;
+	margin-right: 40px;
 	float: left;
-	font: 1.3em "myriad pro", "sans serif";
+	font: 1.1em "myriad pro", "sans serif";
 }
 
 nav ul {
@@ -57,17 +60,17 @@ nav a{
 }
 
 a:link {
-	color: black;
-	text-shadow: 2px 2px 2px #fff;
-	-moz-text-shadow: 2px 2px 2px #fff;
-	-webkit-text-shadow: 2px 2px 2px #fff;
-}
-
-a:visited {
-	color: blue;
+	color: #ff6633;
 	text-shadow: 2px 2px 2px #000;
 	-moz-text-shadow: 2px 2px 2px #000;
 	-webkit-text-shadow: 2px 2px 2px #000;
+}
+
+a:visited {
+	color: #009900;
+	text-shadow: 2px 2px 2px #fff;
+	-moz-text-shadow: 2px 2px 2px #fff;
+	-webkit-text-shadow: 2px 2px 2px #fff;
 }
 
 a:hover {
@@ -91,6 +94,28 @@ a:active {
 	-webkit-text-shadow: 2px 2px 2px #ff0000 !important;
 }
 
+.why {
+	margin-top: 40px;
+}
+
+.why img {
+	margin-top: 40px;
+	width: 386px;
+	height: 266px;
+	float: right;
+}
+
+.certs img {
+	width: 300px;
+	height: 141px;
+	float: left;
+	margin: 0 10px 10px 10px;
+}
+
+.techs {
+	clear: left;
+}
+
 
 
 
@@ -108,7 +133,7 @@ footer ul li {
 	float: left;
 	margin-left: 7.20833333333333%;
 }
-*/
+
 
 #tt-widget-verifications * { margin:0 !important; padding:0 !important; border:0 !important; text-decoration:none !important; font-size: 1em !important; text-align: left !important; }
 #tt-widget-verifications br { line-height:0; display:none; }
