@@ -98,6 +98,8 @@ a:active {
 }
 
 #social {
+	width: 600px;
+	margin: 0 auto;
 	clear: left;  
 }
 
