@@ -14,20 +14,16 @@ a:focus {
 
 #container {
 	width: 100%;
-	margin-top: 146px;
-	padding-top: 20px;
-	background: #ccc;
+	margin: 0 auto;
+	background: #dddddd;
 }
 
 header {
-	position:fixed; 
-	height: 166px;
-	top:0px; 
-	margin:auto; 
-	z-index:100000; 
-	width:100%;
+	width: 100%;
+	background-color: #dddddd;
 	background-image: url(../images/header_bg.jpg);
 	background-repeat: no-repeat;
+	margin: 0 auto;
 	overflow: hidden;	
 }
 
@@ -43,12 +39,11 @@ header {
 	margin-top: 5px;
 	width: 422px;
 	float: right;
-	margin-right: 450px;
 }
 
 
 nav {
-	margin: 0px auto;
+	margin: -20px auto;
 	width: 800px;
 }
 
