@@ -98,14 +98,15 @@ a:active {
 }
 
 .why {
-	margin-top: 60px;
+	margin-top: 80px;
+	margin-bottom: 40px;
 	padding-left: 1em;
 	padding-right: 1em;
 }
-
+/*
 .why h2 {
 	text-align: center;
-}
+}*/
 
 .why article {
 	width: 54.6875%;
@@ -116,25 +117,69 @@ a:active {
 	width: 445px;
 	height: 300px;
 	float: right;
-	border: 1px solid black;
+}
+
+.certs {
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.certs h2 {
+	text-align: center;
+}
+
+.certs aside {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
 }
 
 .certs img {
-	width: 300px;
+	width: 200px;
 	height: 141px;
 	float: left;
-	margin: 0 10px 10px 10px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 2.36em;
+	padding-right: 2.36em;
 }
 
 .techs {
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-top: 40px;
+	margin-bottom: 40px;
 	clear: left;
-	padding-left: 10px;
-	padding-right: 10px;
 }
 
+.techs h2 {
+	text-align: center;	
+}
 
+.techs img {
+	width: 80%;
+	padding-left: 5.5em;
+	overflow: hidden;
+}
+
+.service {
+	margin-top: 80px;
+	margin-bottom: 40px;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.service aside {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+hr {
+	width: 85%;
+	margin: 0 auto;
+	color: #ccc;
+}
 
 
 footer {
