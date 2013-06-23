@@ -57,6 +57,7 @@ nav ul li {
 nav ul li:hover {
 	margin-top: -5px;	
 }
+
 nav ul {
 	list-style-type: none;
 }
@@ -101,7 +102,7 @@ a:active {
 }
 
 #social {
-	width: 200px;
+	width: 180px;
 	height: 20px;
 	margin: 0 auto;
 	padding-top: 10px;
@@ -189,6 +190,10 @@ a:active {
 	margin-right: 35px;
 	float: left;
 	font: 1.5em "myriad pro", "sans serif";
+}
+
+.tech_names ul li:hover {
+	margin-top: -5px;	
 }
 
 .tech_names ul {
