@@ -21,8 +21,8 @@ a:focus {
 
 header {
 	width: 100%;
-	background-color: #dddddd;
-	background-image: url(../images/header_bg.jpg);
+	background-color: #bbbbbb;
+	background-image: url(../images/);
 	background-repeat: no-repeat;
 	margin: 0 auto;
 	overflow: hidden;	
@@ -30,26 +30,25 @@ header {
 
 
 #logo {
-	margin-top: 5px;
-	margin-left: 10px;
-	width: 422px;
+	margin: 5px 0 0 1.0416667%;
+	width: 43.958333%;
 	float: left;
 }
 
 #logo2 {
 	margin-top: 5px;
-	width: 422px;
+	width: 43.958333%;
 	float: right;
 }
 
 
 nav {
-	margin: -20px auto;
-	width: 750px;
+	margin: 20px auto;
+	width: 78.125%;
 }
 
 nav ul li {
-	margin-right: 10px;
+	margin-right: 1.333333%;
 	float: left;
 	font: 1.5em "myriad pro", "sans serif";
 }
@@ -102,19 +101,18 @@ a:active {
 }
 
 #social {
-	width: 180px;
-	height: 20px;
+	width: 18.75%;
+	height: 20px; /*height only specified so box doesnt collapse, will not be there in final*/
 	margin: 0 auto;
 	padding-top: 10px;
-	clear: left;  
+	clear: left; 
+	border: 1px solid black; 
 }
 
 /*------------------Begin Home Page--------------------*/
 .why {
-	margin-top: 40px; 
-	margin-bottom: 40px;
-	padding-left: 1em;
-	padding-right: 1em;
+	margin: 40px auto; 
+	padding: 0 1em;
 }
 
 .why h2 {
@@ -126,23 +124,22 @@ a:active {
 }
 
 .why img {
-	margin-top: 0px;
-	width: 445px;
-	height: 270px;
+	width: 46.354167%;
+	height: 270px;/*height only specified so box doesnt collapse, will not be there in final*/
 	float: right;
+	border: 1px solid black;
 }
 
 #brands {
-	width: 530px;
-	margin: 0 auto;
-	margin-bottom: 20px;
+	width: 55.208333%;
+	height: 100px;/*height only specified so box doesnt collapse, will not be there in final*/
+	margin: 0 auto 20px;
+	border: 1px solid black;
 }
 
 .certs {
-	padding-left: 1em;
-	padding-right: 1em;
-	margin-top: 40px;
-	margin-bottom: 40px;
+	padding: 0 1em 0 1em;
+	margin: 40px auto;
 }
 
 .certs h2 {
@@ -156,38 +153,42 @@ a:active {
 }
 
 .certs img {
-	width: 200px;
-	height: 141px;
+	width: 23.7436852%;
+	height: 141px;/*height only specified so box doesnt collapse, will not be there in final*/
 	float: left;
-	padding-left: 2.36em;
-	padding-right: 2.36em;
+	padding: 0 2.36em 0 2.36em;
+	border: 1px solid black;
+
 }
 
+#tech_banner {
+	width: 80%;
+	height: 100px;/*height only specified so box doesnt collapse, will not be there in final*/
+	overflow: hidden;
+	margin: 40px auto;
+	text-align: center;
+	border: 1px solid black;
+
+}
+
+
 .techs {
-	padding-left: 1em;
-	padding-right: 1em;
-	margin-top: 40px;
-	margin-bottom: 40px;
+	padding-left: 0 1em 0 1em;
+	margin: 40px auto;
 	clear: left;
 }
 
 .techs h2 {
-	text-align: center;	
-}
-
-.techs img {
-	width: 80%;
-	padding-left: 5.5em;
-	overflow: hidden;
+	text-align: center;
 }
 
 .tech_names {
 	margin: 20px auto;
-	width: 800px;
+	width: 83.333333%;
 }
 
 .tech_names ul li {
-	margin-right: 35px;
+	margin-right: 4.556%;
 	float: left;
 	font: 1.5em "myriad pro", "sans serif";
 }
@@ -210,11 +211,11 @@ a:active {
 	clear: left;
 }
 
+
+
 .service {
-	margin-top: 40px;
-	margin-bottom: 10px;
-	padding-left: 1em;
-	padding-right: 1em;
+	margin: 40px auto;
+	padding: 0 1em 0 1em;
 	text-align: center;
 }
 
@@ -224,20 +225,45 @@ a:active {
 	overflow: hidden;
 }
 
-.service span img {
-	margin: 30px auto;
+#hours {
+	height: 500px;/*height only specified so box doesnt collapse, will not be there in final*/
+	border: 1px solid black;
 }
 
 /*------------------End Home Page--------------------*/
 
 /*------------------Begin About Page--------------------*/
 
+
 .mission {
-	
+	margin: 40px auto;
+	padding: 0 1em 0 1em;
 }
 
+.mission h2 {
+	text-align: center;
+}
+
+.mission article {
+	width: 100%;
+}
+
+
+
 .our_start {
-	
+	margin: 40px auto;
+	padding: 0 1em 0 1em;
+}
+
+.our_start h2 {
+	text-align: center;
+}
+
+#founder {
+	Width: 70.520833%;
+	margin: 0 auto;
+	height: 100px;/*height only specified so box doesnt collapse, will not be there in final*/
+	border: 1px solid black;
 }
 
 /*------------------End About Page--------------------*/
@@ -245,11 +271,80 @@ a:active {
 /*------------------Begin Services Page--------------------*/
 
 .residential {
-	
+	margin: 40px auto;
+	padding: 0 1em 0 1em;
+}
+
+.residential h2 {
+	text-align: center;
+}
+
+.residential article {
+	width: 50.6875%;
+	margin-bottom: 20px;
+}
+
+.residential img {
+	width: 46.354167%;
+	height: 270px;/*height only specified so box doesnt collapse, will not be there in final*/
+	float: right;
+	border: 1px solid black;
+}
+
+.residential aside ul {
+	font-weight: 600;
+	column-count: 3;
+	-moz-column-count: 3;
+	-webkit-column-count: 3; 
+	-o-column-count: 3;
 }
 
 .commercial {
-	
+	margin: 40px auto;
+	padding: 0 1em 0 1em;
+}
+
+.commercial h2 {
+	text-align: center;
+}
+
+.commercial article {
+	width: 50.6875%;
+	float: right;
+
+}
+
+.commercial img {
+	margin-bottom: 20px;
+	width: 46.354167%;
+	height: 260px;/*height only specified so box doesnt collapse, will not be there in final*/
+	float: left;
+	border: 1px solid black;
+}
+
+.commercial ul {
+	clear: left;
+}
+
+.commercial aside ul {
+	font-weight: 600;
+	column-count: 3;
+	-moz-column-count: 3;
+	-webkit-column-count: 3; 
+	-o-column-count: 3;
+}
+
+.data {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#harddrive {
+	margin: 0 auto 40px;
+	width: 46.354167%;
+	height: 270px;/*height only specified so box doesnt collapse, will not be there in final*/
+	border: 1px solid black;
 }
 
 /*------------------End Services Page--------------------*/
@@ -257,23 +352,99 @@ a:active {
 /*------------------Begin Resources Page--------------------*/
 
 .help {
-	
+	margin: 40px auto;
+	padding: 0 1em 0 1em;
+}
+
+.help h2 {
+	text-align: center;
+}
+
+.help p {
+	width: 50.6875%;
+	margin: 0 0 20px 10.416667%;
+}
+
+.help div {
+	width: 20.833333%;
+	height: 150px;/*height only specified so box doesnt collapse, will not be there in final*/
+	overflow: hidden;
+	margin: 0 10.416667% 0 20px;
+	float: right;
+	border: 1px solid black;
 }
 
 .virus {
-	
+	margin: 40px auto;
+	padding: 0 1em 0 1em;
 }
+
+.virus h2 {
+	text-align: center;
+}
+
+.virus article {
+	width: 100%;
+	column-count: 3;
+	-moz-column-count: 3;
+	-webkit-column-count: 3; 
+	-o-column-count: 3;
+
+}
+
+.virus div {
+	margin: 0 auto 20px;
+	width: 46.354167%;
+	height: 150px;/*height only specified so box doesnt collapse, will not be there in final*/
+	border: 1px solid black;
+}
+
 
 /*------------------End Resources Page--------------------*/
 
 /*------------------Begin News Page--------------------*/
 
-.local_news{
-	
+.local_news {
+	margin: 40px auto;
+	padding: 0 1em 0 1em;
+}
+
+.local_news h2 {
+	text-align: center;
+}
+
+.local_news P {
+	width: 50.6875%;
+	margin-left: 4em;
+}
+
+.local_news div {
+	margin: 0 4em 4em 0;
+	width: 30.208333%;
+	height: 190px;/*height only specified so box doesnt collapse, will not be there in final*/
+	float: right;
+	border: 1px solid black;
 }
 
 .ind_news {
-	
+	margin: 40px auto;
+	padding: 0 1em 0 1em;
+}
+
+.ind_news h2 {
+	text-align: center;
+}
+
+.ind_news P {
+	width: 100%;
+	text-align: center;
+}
+
+.ind_news div {
+	margin: 0 auto;
+	width: 79.166667%;
+	height: 160px;/*height only specified so box doesnt collapse, will not be there in final*/
+	border: 1px solid black;
 }
 
 /*------------------End News Page--------------------*/
@@ -281,24 +452,143 @@ a:active {
 /*------------------Begin Contact Page--------------------*/
 
 .call {
-	
+	margin: 40px auto;
+	padding: 0 1em 0 1em;
+}
+
+.call h2 {
+	text-align: center;
+}
+
+.call p {
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;	
+}
+
+.call div {
+	margin: 0 auto;
+	width: 36.458333%;
+	height: 266px;/*height only specified so box doesnt collapse, will not be there in final*/
+	margin-bottom: 20px;
+	border: 1px solid black;
+
 }
 
 .email {
+	margin: 40px auto;
+	padding: 0 1em 0 1em;
+}
+
+.email h2 {
+	text-align: center;
+}
+
+/*------Contact Form--------*/
+
+#form {
+	width: 40%;
+	margin: 0 auto;
+}
+
+.form {
+	margin: 20px auto;
+}
+
+#form_dropdown {
+	margin-top: 1.0em;
+}
+
+#form_selection {
+	margin-bottom: 1.0em;
+}
+
+#form fieldset legend {
+	font-weight: bold;
+}
+
+.sign_up_form {
+	background-color: #c3c3c3;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	text-align: center;
+	margin: 10px;
+}
+
+/*------------------Contact information--------------------*/
+.contact {
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	text-align: right;
+}
+
+#form_first {
+	margin: 0 1.5em 0.3em 0;
+}
+
+#form_last {	
+	margin: 0 1.5em 0.3em 0;
+}
+
+#form_phone {
+	margin: 0 1.5em 0.3em 0;
+}
+
+#form_email {
+	margin-right: 1.5em;
+}
+
+/*------------------System information--------------------*/
+
+.system {
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	text-align: left;
+}
+
+#comp_type{
+	margin: 0 1.5em 0.3em 0;
+}
+
+.mac {
+	margin-left: 8em;
+}
+
+.pc {
+	margin-left: 8em;
+}
+
+#op_sys {
+	text-align: center;
+}
+
+.issue {
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
 	
 }
+
+
+
+/*------------------Consent form--------------------*/
+
+#form_consent {
+	margin-top:  0.8em;
+	text-align: left;
+}
+
+#form_submit {
+	margin-top: 0.8em;
+	text-align: center;
+}
+
 /*------------------End Contact Page--------------------*/
-
-
-
-
-
-
-
-
-
-
-
 
 hr {
 	width: 85%;
@@ -311,20 +601,19 @@ hr {
 footer {
 	width: 100%;
 	height: 65px;
-	margin: 10px auto;
-	margin-bottom: 0;
-	background-image: url(../images/footer_bg.jpg);
+	margin: 10px auto 0;
+	background-image: url(../images/);
+	background-color: #bbbbbb;
 	overflow: hidden;
 }
 
 footer ul li {
 	color: #ff6633;
-	text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
-            -1px 1px 0 #000, 3px 3px 5px #000;
+	text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 3px 3px 5px #000;
 	font-weight: bold;
 	list-style-type: none;
 	float: left;
-	margin: 15px 80px 0 10px;
+	margin: 15px 8.333333% 0 1.041667%;
 }
 
 
