@@ -110,6 +110,7 @@ a:active {
 .why {
 	margin: 40px auto; 
 	padding: 0 1em;
+	clear: left;
 }
 
 .why h2 {
@@ -147,6 +148,7 @@ a:active {
 
 .certs img {
 	width: 23.7436852%;
+	height: 141px;
 	float: left;
 	padding: 0 2.36em 0 2.36em;
 }
