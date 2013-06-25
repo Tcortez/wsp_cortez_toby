@@ -99,16 +99,9 @@ a:active {
 	-webkit-text-shadow: 2px 2px 2px #ff0000 !important;
 }
 
-#social {
-	width: 18.75%;
-	margin: 0 auto;
-	padding-top: 10px;
-	clear: left; 
-}
-
 /*------------------Begin Home Page--------------------*/
 .why {
-	margin: 40px auto; 
+	margin: 80px auto 40px; 
 	padding: 0 1em;
 	clear: left;
 }
@@ -220,7 +213,7 @@ a:active {
 
 
 .mission {
-	margin: 40px auto;
+	margin: 80px auto 40px; 
 	padding: 0 1em 0 1em;
 }
 
@@ -246,8 +239,6 @@ a:active {
 #founder {
 	Width: 70.520833%;
 	margin: 0 auto;
-	height: 100px;/*height only specified so box doesnt collapse, will not be there in final*/
-	border: 1px solid black;
 }
 
 /*------------------End About Page--------------------*/
@@ -255,8 +246,8 @@ a:active {
 /*------------------Begin Services Page--------------------*/
 
 .residential {
-	margin: 40px auto;
-	padding: 0 1em 0 1em;
+	margin: 80px auto 40px; 
+	padding: 0 2.0833333% 0 2.0833333%;
 }
 
 .residential h2 {
@@ -270,9 +261,8 @@ a:active {
 
 .residential img {
 	width: 46.354167%;
-	height: 270px;/*height only specified so box doesnt collapse, will not be there in final*/
+	
 	float: right;
-	border: 1px solid black;
 }
 
 .residential aside ul {
@@ -301,9 +291,7 @@ a:active {
 .commercial img {
 	margin-bottom: 20px;
 	width: 46.354167%;
-	height: 260px;/*height only specified so box doesnt collapse, will not be there in final*/
 	float: left;
-	border: 1px solid black;
 }
 
 .commercial ul {
@@ -327,8 +315,6 @@ a:active {
 #harddrive {
 	margin: 0 auto 40px;
 	width: 46.354167%;
-	height: 270px;/*height only specified so box doesnt collapse, will not be there in final*/
-	border: 1px solid black;
 }
 
 /*------------------End Services Page--------------------*/
@@ -336,7 +322,7 @@ a:active {
 /*------------------Begin Resources Page--------------------*/
 
 .help {
-	margin: 40px auto;
+	margin: 80px auto 40px; 
 	padding: 0 1em 0 1em;
 }
 
@@ -351,11 +337,9 @@ a:active {
 
 .help div {
 	width: 20.833333%;
-	height: 150px;/*height only specified so box doesnt collapse, will not be there in final*/
 	overflow: hidden;
 	margin: 0 10.416667% 0 20px;
 	float: right;
-	border: 1px solid black;
 }
 
 .virus {
@@ -379,8 +363,6 @@ a:active {
 .virus div {
 	margin: 0 auto 20px;
 	width: 46.354167%;
-	height: 150px;/*height only specified so box doesnt collapse, will not be there in final*/
-	border: 1px solid black;
 }
 
 
@@ -389,7 +371,7 @@ a:active {
 /*------------------Begin News Page--------------------*/
 
 .local_news {
-	margin: 40px auto;
+	margin: 80px auto 40px; 
 	padding: 0 1em 0 1em;
 }
 
@@ -405,9 +387,7 @@ a:active {
 .local_news div {
 	margin: 0 4em 4em 0;
 	width: 30.208333%;
-	height: 190px;/*height only specified so box doesnt collapse, will not be there in final*/
 	float: right;
-	border: 1px solid black;
 }
 
 .ind_news {
@@ -427,8 +407,6 @@ a:active {
 .ind_news div {
 	margin: 0 auto;
 	width: 79.166667%;
-	height: 160px;/*height only specified so box doesnt collapse, will not be there in final*/
-	border: 1px solid black;
 }
 
 /*------------------End News Page--------------------*/
@@ -436,7 +414,7 @@ a:active {
 /*------------------Begin Contact Page--------------------*/
 
 .call {
-	margin: 40px auto;
+	margin: 80px auto 40px; 
 	padding: 0 1em 0 1em;
 }
 
@@ -455,10 +433,7 @@ a:active {
 .call div {
 	margin: 0 auto;
 	width: 36.458333%;
-	height: 266px;/*height only specified so box doesnt collapse, will not be there in final*/
 	margin-bottom: 20px;
-	border: 1px solid black;
-
 }
 
 .email {
