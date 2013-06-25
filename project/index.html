@@ -5,6 +5,26 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">		
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
         <script type="text/javascript">var switchTo5x=true;</script>
 		<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 		<script type="text/javascript" src="http://s.sharethis.com/loader.js"></script>
@@ -12,18 +32,19 @@
     <body>
         <div id="container">	
             <header>
-                <div id="logo"><a href="#"><img src="images/logo1.png" alt="" width="497" height="156" title="" ></a></div>	
-                <div id="logo2"><img src="images/logo2.png" alt="" width="422" height="125" title="" ></div>	
+                <div id="logo"><a href="#"><img src="images/logo1.png" alt="" title="" ></a></div>	
+                <div id="logo2"><img src="images/logo2.png" alt="" title="" ></div>	
             </header>
             <nav>
                 <ul>
-                    <li><a href="index.html" class="current">HOME</a>&nbsp;&nbsp;&nbsp;|</li>
-                    <li><a href="about.html">ABOUT</a>&nbsp;&nbsp;&nbsp;|</li>
-                    <li><a href="services.html">SERVICES</a>&nbsp;&nbsp;&nbsp;|</li>
-                    <li><a href="resources.html">RESOURCES</a>&nbsp;&nbsp;&nbsp;|</li>
-                    <li><a href="news.html">NEWS</a>&nbsp;&nbsp;&nbsp;|</li>
+                    <li><a href="index.html" class="current">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="resources.html">RESOURCES</a></li>
+                    <li><a href="news.html">NEWS</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>	
+                <a href="#" id="pull">Menu</a>
             </nav> 
  
             <section class="why">
@@ -101,12 +122,14 @@
                     <li class="cityview">Vista Computer Repair&nbsp;|&nbsp;East Orlando, Fl 32825</li>
                 </ul>
             </footer>
-        </div>	
+        </div>
+        <div id="social">	
         <script type="text/javascript">stLight.options({publisher: "a13248ea-8b0f-4c51-a636-530daac8425a", doNotHash: false, doNotCopy: false, 
 		hashAddressBar: false});</script>
-		<script>var options={ "publisher": "a13248ea-8b0f-4c51-a636-530daac8425a", "position": "right", "ad": { "visible": false, "openDelay": 5, 
+		<script>var options={ "publisher": "a13248ea-8b0f-4c51-a636-530daac8425a", "position": "left", "ad": { "visible": falsee, "openDelay": 20, 
 		"closeDelay": 0}, "chicklets": { "items": ["facebook", "googleplus", "twitter", "linkedin", "pinterest", "email", "sharethis"]}};
 		var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
 		</script>
+        </div>
     </body>
 </html>

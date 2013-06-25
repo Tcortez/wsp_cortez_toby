@@ -5,6 +5,26 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">		
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
         <script type="text/javascript">var switchTo5x=true;</script>
 		<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 		<script type="text/javascript" src="http://s.sharethis.com/loader.js"></script>
@@ -17,13 +37,14 @@
             </header>
             <nav>
                 <ul>
-                    <li><a href="index.html">HOME</a>&nbsp;&nbsp;&nbsp;|</li>
-                    <li><a href="about.html">ABOUT</a>&nbsp;&nbsp;&nbsp;|</li>
-                    <li><a href="services.html">SERVICES</a>&nbsp;&nbsp;&nbsp;|</li>
-                    <li><a href="resources.html">RESOURCES</a>&nbsp;&nbsp;&nbsp;|</li>
-                    <li><a href="news.html" class="current">NEWS</a>&nbsp;&nbsp;&nbsp;|</li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="resources.html">RESOURCES</a></li>
+                    <li><a href="news.html" class="current">NEWS</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>	
+                <a href="#" id="pull">Menu</a>
             </nav>                 
             <section class="local_news">
                 <h2>Local News</h2>
