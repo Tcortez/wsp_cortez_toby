@@ -702,10 +702,103 @@ footer ul li {
 		display: none;
 	}
 	
+	.why article {
+		margin: 0 auto;
+	width: 80%;
+}
+	
 	#brands {
 		display: none;
 
 	}
+	
+	.techs p {
+	text-align: center;
+	margin: 0 auto;
+	width: 80%;
+
+}
+
+	.mission article {
+	width: 80%;
+	margin: 0 auto;
+}
+
+	.our_start article {
+	width: 80%;
+	margin: 0 auto;
+	}
+	
+	#founder {
+		display: none;
+	}
+	
+	.local_news P {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.local_news div {
+	margin: 0 auto;;
+	width: 30.208333%;
+	float: none;
+}
+	.ind_news P {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.ind_news div {
+	margin: 0 auto;
+	width: 79.166667%;
+}
+	
+	.help p {
+	width: 80%;
+	margin: 0 auto 20px;
+}
+
+.help div {
+	width: 30.833333%;
+	margin: 0 auto 20px;
+	float: none;
+}
+
+
+.virus article {
+	width: 80%;
+	column-count: 1;
+	-moz-column-count: 1;
+	-webkit-column-count: 1; 
+	-o-column-count: 1;
+	margin: 0 auto;
+}
+
+.virus div {
+display: none;
+}
+
+	
+	
+
+.call p {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.call div {
+	margin: 0 auto;
+	width: 80%;
+	margin-bottom: 20px;
+}
+
+#form {
+	width: 80%;
+	margin: 0 auto 40px;
+}
+
+
+
 
 }
 
