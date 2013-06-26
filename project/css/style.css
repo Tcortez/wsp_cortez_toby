@@ -21,8 +21,10 @@ a:focus {
 
 header {
 	width: 100%;
+	background-color: #ccc;
 	background-image: url(../images/header_bg.jpg);
 	background-repeat: no-repeat;
+	
 	margin: 0 auto;
 	overflow: hidden;	
 }
@@ -46,9 +48,10 @@ header {
 
 
 nav {
-
+	background-color: #bbb;
 	height: 40px;
 	width: 100%;
+	margin: -8px auto 0;
 	font-size: 11pt;
 	font-weight: bold;
 	position: relative;
@@ -129,7 +132,7 @@ a:active {
 
 /*------------------Begin Home Page--------------------*/
 .why {
-	margin: 80px auto 40px; 
+	margin: 40px auto 40px; 
 	padding: 0 1em;
 	clear: left;
 }
@@ -241,7 +244,7 @@ a:active {
 
 
 .mission {
-	margin: 80px auto 40px; 
+	margin: 40px auto 40px; 
 	padding: 0 1em 0 1em;
 }
 
@@ -274,7 +277,7 @@ a:active {
 /*------------------Begin Services Page--------------------*/
 
 .residential {
-	margin: 80px auto 40px; 
+	margin: 40px auto 40px; 
 	padding: 0 2.0833333% 0 2.0833333%;
 }
 
@@ -350,7 +353,7 @@ a:active {
 /*------------------Begin Resources Page--------------------*/
 
 .help {
-	margin: 80px auto 40px; 
+	margin: 40px auto 40px; 
 	padding: 0 1em 0 1em;
 }
 
@@ -399,7 +402,7 @@ a:active {
 /*------------------Begin News Page--------------------*/
 
 .local_news {
-	margin: 80px auto 40px; 
+	margin: 40px auto 40px; 
 	padding: 0 1em 0 1em;
 }
 
@@ -442,7 +445,7 @@ a:active {
 /*------------------Begin Contact Page--------------------*/
 
 .call {
-	margin: 80px auto 40px; 
+	margin: 40px auto 40px; 
 	padding: 0 1em 0 1em;
 }
 
@@ -986,7 +989,9 @@ display: none;
 
 
 
-
+.mission {
+	margin-top: -10px;
+}
 
 
 	.mission article {
@@ -1001,6 +1006,11 @@ display: none;
 	
 	#founder {
 		display: none;
+	}
+	
+	
+	.local_news {
+		margin-top: -10px;
 	}
 	
 	.local_news P {
@@ -1022,6 +1032,11 @@ display: none;
 	margin: 0 auto;
 	width: 79.166667%;
 }
+	
+	
+	.help {
+		margin-top: -10px;
+	}
 	
 	.help p {
 	width: 80%;
@@ -1049,7 +1064,9 @@ display: none;
 }
 
 	
-	
+	.call {
+		margin-top: -10px;
+	}
 
 .call p {
 	width: 80%;
