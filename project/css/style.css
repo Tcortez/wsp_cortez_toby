@@ -1076,13 +1076,13 @@ display: none;
 }
 
 #form {
-	width: 80%;
-	margin: 0 auto 40px;
+	width: 65%;
+	margin: 0 0 40px 2px;
 	text-align: center;
 }
 
 .form {
-	width: 80%;
+	width: 65%;
 	margin: 20px auto;
 		text-align: center;
 
