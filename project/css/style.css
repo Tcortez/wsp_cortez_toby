@@ -936,7 +936,7 @@ display: none;
 
 .techs {
 	width: 80%;
-	padding-left: 0 1em 0 1em;
+	padding: 0 1em 0 1em;
 	margin: 40px auto;
 	clear: left;
 }
@@ -959,7 +959,7 @@ display: none;
 
 
 .techs p {
-	width: 80%
+	width: 80%;
 	margin: 0 auto;
 	padding-top: 10px;
 	clear: left;
@@ -1072,14 +1072,139 @@ display: none;
 }
 
 .call div {
-	margin: 0 auto;
-	width: 80%;
-	margin-bottom: 20px;
+	display: none;
 }
 
 #form {
 	width: 80%;
 	margin: 0 auto 40px;
+	text-align: center;
+}
+
+.form {
+	width: 80%;
+	margin: 20px auto;
+		text-align: center;
+
+}
+
+#form_dropdown {
+	width: 80%;
+	margin-top: 1.0em;
+}
+
+#form_selection {
+		width: 80%;
+
+	margin-bottom: 1.0em;
+}
+
+#form fieldset legend {
+		width: 80%;
+
+	font-weight: bold;
+		text-align: center;
+
+}
+
+.sign_up_form {
+		width: 80%;
+
+	background-color: #c3c3c3;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	text-align: center;
+	margin: 10px;
+
+}
+
+/*------------------Contact information--------------------*/
+.contact {
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	text-align: center;	
+	width: 80%;
+	margin: 0 auto;
+}
+
+#form_first {
+	text-align: left;
+	width: 80%;
+	margin: 10px auto;
+}
+
+#form_last {
+	text-align: left;
+	width: 80%;
+	margin: 10px auto;
+}
+
+#form_phone {
+	text-align: left;
+	width: 80%;
+	margin: 10px auto;
+}
+
+#form_email {
+	text-align: left;
+	width: 80%;
+	margin: 10px auto;
+}
+
+/*------------------System information--------------------*/
+
+.system {
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	text-align: center;
+		width: 80%;
+
+}
+
+#comp_type{
+	margin: 0 1.5em 0.3em 0;
+	
+}
+
+.mac {
+	margin-left: 8em;
+}
+
+.pc {
+	margin-left: 8em;
+}
+
+#op_sys {
+	text-align: center;
+		width: 80%;
+	margin: 0 auto;
+}
+
+.issue {
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+		width: 40%;
+		margin: 0 auto;
+
+	
+}
+
+
+
+/*------------------Consent form--------------------*/
+
+#form_consent {
+	margin-top:  0.8em;
+	text-align: left;
+}
+
+#form_submit {
+	margin-top: 0.8em;
+	text-align: center;
 }
 
 
