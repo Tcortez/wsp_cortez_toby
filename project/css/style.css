@@ -825,9 +825,7 @@ display: none;
 /* Mobile Portrait size to Mobile Landscape  (devices and browsers)*/
 
 @media screen and (max-width: 479px) {
-	#social {
-		display: none;
-	}
+
 
 	#logo {
 		display: none;
