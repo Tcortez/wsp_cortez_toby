@@ -637,9 +637,7 @@ footer ul li {
 /* Mobile Landscape size to Tablet Portrait (devices and browsers)*/
 
 @media screen and (min-width: 480px) and (max-width: 559px) {
-#social {
-		display: none;
-	}
+
 
 	#logo {
 		display: none;
@@ -652,7 +650,7 @@ footer ul li {
 		#logo3 {
 		display: block;
 		margin: 5px auto;
-		width: 65%;
+		width: 60%;
 	}
 	
 	nav {
@@ -714,6 +712,7 @@ footer ul li {
 		margin-top: -10px;	
 	}
 		
+		
 	.why img {
 		display: none;
 	}
@@ -735,19 +734,146 @@ footer ul li {
 }
 
 .certs img {
-	width: 23.7436852%;
+	width: 70%;
 	height: 141px;
 	float: none;
 	margin: 0 auto;
 }
 
-	
-	.techs p {
-	text-align: center;
-	margin: 0 auto;
+#tech_banner {
+	width: 70%;
+	overflow: hidden;
+	margin: 40px auto;
+}
+
+.techs {
 	width: 80%;
+	padding: 0 1em 0 1em;
+	margin: 40px auto;
+	clear: left;
+}
+
+.tech_names {
+	margin: 20px 0 0 -5px;
+	text-align: center;
+	width: 90%;
+}
+
+.tech_names ul li {
+	text-align: center;
+	float: none;
+	font: 1.5em "myriad pro", "sans serif";
+}
+
+.tech_names ul li:hover {
+	margin-top: 0px;	
+}
+
+
+.techs p {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 10px;
+	clear: left;
+}
+
+.service {
+	margin: 40px auto;
+	padding: 0 1em 0 1em;
+	text-align: center;
+}
+
+.service aside {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#hours {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.residential {
+	margin: 40px auto 40px; 
+	padding: 0 2.0833333% 0 2.0833333%;
+}
+
+.residential h2 {
+	text-align: center;
+}
+
+.residential article {
+	width: 50.6875%;
+	margin-bottom: 20px;
+}
+
+.residential img {
+	width: 46.354167%;
+	
+	float: right;
+}
+
+.residential aside ul {
+	font-weight: 600;
+	column-count: 3;
+	-moz-column-count: 3;
+	-webkit-column-count: 3; 
+	-o-column-count: 3;
+}
+
+.commercial {
+	margin: 40px auto;
+	padding: 0 1em 0 1em;
+}
+
+.commercial h2 {
+	text-align: center;
+}
+
+.commercial article {
+	width: 50.6875%;
+	float: right;
 
 }
+
+.commercial img {
+	margin-bottom: 20px;
+	width: 46.354167%;
+	float: left;
+}
+
+.commercial ul {
+	clear: left;
+}
+
+.commercial aside ul {
+	font-weight: 600;
+	column-count: 3;
+	-moz-column-count: 3;
+	-webkit-column-count: 3; 
+	-o-column-count: 3;
+}
+
+.data {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#harddrive {
+	margin: 0 auto 40px;
+	width: 46.354167%;
+}
+
+
+
+
+
+.mission {
+	margin-top: -10px;
+}
+
 
 	.mission article {
 	width: 80%;
@@ -761,6 +887,11 @@ footer ul li {
 	
 	#founder {
 		display: none;
+	}
+	
+	
+	.local_news {
+		margin-top: -10px;
 	}
 	
 	.local_news P {
@@ -782,6 +913,11 @@ footer ul li {
 	margin: 0 auto;
 	width: 79.166667%;
 }
+	
+	
+	.help {
+		margin-top: -10px;
+	}
 	
 	.help p {
 	width: 80%;
@@ -808,29 +944,176 @@ footer ul li {
 display: none;
 }
 
-.call {
-	width: 100%;
-	margin: 0 auto;
-}
 	
-	.call h2 {
-		width: 80%;
+.call {
+	width: 95%;
+	margin-top: -10px auto;
+	float: none;
 	}
 
 .call p {
 	width: 80%;
 	margin: 0 auto;
+	float: none;
 }
 
 .call div {
-	margin: 0 auto;
-	width: 80%;
-	margin-bottom: 20px;
+	display: none;
 }
 
+
+.call h2 {
+	width: 50%;
+	margin: 20px auto;
+}
+
+.email {
+	width: 95%;
+	margin-top: -10px auto;
+	float: none;
+}
+
+.email h2 {
+	width: 48%;
+	margin: 20px auto;
+}
+
+/*------Contact Form--------*/
+
 #form {
+	float:  none;
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+.form {
+	width: 65%;
+	margin: 20px auto;
+		text-align: center;
+
+}
+
+#form_dropdown {
 	width: 80%;
-	margin: 0 auto 40px;
+	margin-top: 1.0em;
+}
+
+#form_selection {
+		width: 80%;
+
+	margin-bottom: 1.0em;
+}
+
+#form fieldset legend {
+		width: 80%;
+
+	font-weight: bold;
+		text-align: center;
+
+}
+
+.sign_up_form {
+		width: 80%;
+
+	background-color: #c3c3c3;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	text-align: center;
+	margin: 10px;
+
+}
+
+/*------------------Contact information--------------------*/
+.contact {
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	text-align: center;	
+	width: 80%;
+	margin: 0 auto;
+}
+
+#form_first {
+	text-align: left;
+	width: 80%;
+	margin: 10px auto;
+}
+
+#form_last {
+	text-align: left;
+	width: 80%;
+	margin: 10px auto;
+}
+
+#form_phone {
+	text-align: left;
+	width: 80%;
+	margin: 10px auto;
+}
+
+#form_email {
+	text-align: left;
+	width: 80%;
+	margin: 10px auto;
+}
+
+/*------------------System information--------------------*/
+
+.system {
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	text-align: center;
+		width: 80%;
+
+}
+
+#comp_type{
+	width: 20%;
+	margin: 0 auto 20px;
+	
+}
+
+.mac {
+	width: 80%;
+	margin: 10px auto;
+}
+
+.pc {
+	width: 80%;
+	margin: 10px auto;
+	}
+
+#op_sys {
+	text-align: center;
+		width: 80%;
+	margin: 0 auto;
+}
+
+.issue {
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+		width: 40%;
+		margin: 0 auto;
+
+	
+}
+
+
+
+/*------------------Consent form--------------------*/
+
+#form_consent {
+	margin-top:  0.8em;
+	text-align: left;
+}
+
+#form_submit {
+	margin-top: 0.8em;
+	text-align: center;
 }
 
 
@@ -1148,13 +1431,13 @@ display: none;
 
 	
 .call {
-	width: 95%;
+	width: 80%;
 	margin-top: -10px auto;
 	float: none;
 	}
 
 .call p {
-	width: 92%;
+	width: 95%;
 	margin: 0 auto;
 	float: none;
 }
@@ -1170,7 +1453,7 @@ display: none;
 }
 
 .email {
-	width: 95%;
+	width: 85%;
 	margin-top: -10px auto;
 	float: none;
 }
@@ -1184,15 +1467,15 @@ display: none;
 
 #form {
 	float:  none;
-	width: 90%;
-	margin: 0 auto;
+	width: 100%;
+	margin: 0 auto 0 -10px;
 }
 
 
 .form {
 	width: 65%;
 	margin: 20px auto;
-		text-align: center;
+	text-align: center;
 
 }
 
