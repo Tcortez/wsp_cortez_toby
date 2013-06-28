@@ -15,9 +15,7 @@ a:focus {
 #container {
 	width: 100%;
 	margin: 0 auto;
-	background: #dddddd;
-	overflow: hidden;
-	
+	background: #dddddd;	
 }
 
 header {
@@ -451,27 +449,25 @@ a:active {
 	margin-top: 10px;
 	margin-left: 9.1666667%;
 	padding: 0 1em 0 1em;
+	overflow: hidden;
 }
 
 .call h2 {
-	margin-left: 10px;
-	text-align: center;
+	width: 45%;
+	margin: 20px auto;
 }
 
 .call p {
-	margin-left: 50px;
-	width: 30%;
-	margin-bottom: 20px;
-	text-align: center;
+	width: 80%;
+	margin: 0 auto 20px;
 	font-weight: bold;
 	font-size: 2em;	
 }
 
 .call div {
 	float: left;
-	margin-left: -15px;
-	width: 36.458333%;
-	margin-bottom: 20px;
+	width: 80%;
+	margin: 0 auto 20px;
 }
 
 .email {
