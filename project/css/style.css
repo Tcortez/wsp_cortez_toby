@@ -409,19 +409,19 @@ a:active {
 	text-align: center;
 }
 
-.local_news P {
+.local_news  p {
 	width: 50.6875%;
-	margin-left: 4em;
+	margin: 0 0 20px 10.416667%;
 }
 
 .local_news div {
-	margin: -20px 4em 4em 0;
+	margin: -20px 20px 20px 0;
 	width: 30.208333%;
 	float: right;
 }
 
 .ind_news {
-	margin: 40px auto;
+	margin: 40px auto 40px; 
 	padding: 0 1em 0 1em;
 }
 
@@ -431,13 +431,16 @@ a:active {
 
 .ind_news P {
 	width: 100%;
-	text-align: center;
+	margin: 0 0 20px 10.416667%;
 }
 
 .ind_news div {
 	margin: 0 auto;
 	width: 79.166667%;
 }
+
+
+
 
 /*------------------End News Page--------------------*/
 
@@ -447,7 +450,7 @@ a:active {
 	float: left;
 	width: 30%;
 	margin-top: 10px;
-	margin-left: 9.1666667%;
+	margin-left: 10%;
 	padding: 0 1em 0 1em;
 	overflow: hidden;
 }
@@ -458,7 +461,7 @@ a:active {
 }
 
 .call p {
-	width: 80%;
+	width: 72%;
 	margin: 0 auto 20px;
 	font-weight: bold;
 	font-size: 2em;	
@@ -472,22 +475,20 @@ a:active {
 
 .email {
 	float: left;
-	width: 30%;
-	margin-top: 10px;
-	padding: 0 1em 0 1em;
+	width: 40%;
+	margin: 10px 0% 20px 7%;
 }
 
 .email h2 {
-	margin-left: 160px;
-	text-align: center;
+	width: 34%;
+	margin: 20px auto;
 }
 
 /*------Contact Form--------*/
 
 #form {
-	float: left;
-	width: 40%;
-	margin-left: 5.2083333%;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .form {
@@ -807,8 +808,14 @@ footer ul li {
 display: none;
 }
 
+.call {
+	width: 100%;
+	margin: 0 auto;
+}
 	
-	
+	.call h2 {
+		width: 80%;
+	}
 
 .call p {
 	width: 80%;
@@ -1140,22 +1147,51 @@ display: none;
 }
 
 	
-	.call {
-		margin-top: -10px;
+.call {
+	width: 95%;
+	margin-top: -10px auto;
+	float: none;
 	}
 
 .call p {
-	width: 80%;
+	width: 92%;
 	margin: 0 auto;
+	float: none;
 }
 
 .call div {
 	display: none;
 }
 
+
+.call h2 {
+	width: 60%;
+	margin: 20px auto;
+}
+
+.email {
+	width: 95%;
+	margin-top: -10px auto;
+	float: none;
+}
+
+.email h2 {
+	width: 48%;
+	margin: 20px auto;
+}
+
+/*------Contact Form--------*/
+
+#form {
+	float:  none;
+	width: 90%;
+	margin: 0 auto;
+}
+
+
 #form {
 	width: 65%;
-	margin: 0 0 40px 2px;
+	margin: 0 0 40px -5px;
 	text-align: center;
 }
 
@@ -1243,17 +1279,20 @@ display: none;
 }
 
 #comp_type{
-	margin: 0 1.5em 0.3em 0;
+	width: 20%;
+	margin: 0 auto 20px;
 	
 }
 
 .mac {
-	margin-left: 8em;
+	width: 80%;
+	margin: 10px auto;
 }
 
 .pc {
-	margin-left: 8em;
-}
+	width: 80%;
+	margin: 10px auto;
+	}
 
 #op_sys {
 	text-align: center;
