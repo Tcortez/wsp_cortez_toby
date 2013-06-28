@@ -459,7 +459,8 @@ a:active {
 }
 
 .call p {
-	width: 100%;
+	margin-left: 50px;
+	width: 30%;
 	margin-bottom: 20px;
 	text-align: center;
 	font-weight: bold;
