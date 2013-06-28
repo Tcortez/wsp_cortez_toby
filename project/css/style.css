@@ -234,8 +234,62 @@ a:active {
 	overflow: hidden;
 }
 
-#hours {
+table {
+	width: 40%;
+	margin: 40px auto 20px;
+	border-collapse: collapse;
+	padding: 0.3em;
+	text-align: center;
 }
+
+table tr:last-child td:first-child {
+    -moz-border-radius-bottomleft:10px;
+    -webkit-border-bottom-left-radius:10px;
+    border-bottom-left-radius:10px
+}
+
+table tr:last-child td:last-child {
+    -moz-border-radius-bottomright:10px;
+    -webkit-border-bottom-right-radius:10px;
+    border-bottom-right-radius:10px
+}
+
+th {
+	background-color: #004c99;
+	color: #fff;
+	text-shadow: 2px 2px 2px #000;
+	-moz-text-shadow: 2px 2px 2px #000;
+	-webkit-text-shadow; 2px 2px 2px #000;	
+}
+
+table th:first-child {
+    -moz-border-radius-topleft:10px;
+    -webkit-border-top-left-radius:10px;
+    border-top-left-radius:10px
+}
+
+table th:last-child {
+    -moz-border-radius-topright:10px;
+    -webkit-border-top-right-radius:10px;
+    border-top-right-radius:10px
+}
+
+td {
+	padding: 0.3em;
+}
+
+.dark_blue {
+	background-color: #0065cc;
+}
+
+.light_blue {
+	background-color: #0072e5;
+}
+
+.lighter_blue {
+	background-color:  #007fff;
+}
+
 
 /*------------------End Home Page--------------------*/
 
@@ -1280,6 +1334,7 @@ display: none;
 }
 
 .residential {
+	width: 95%;
 	margin: 40px auto 40px; 
 	padding: 0 2.0833333% 0 2.0833333%;
 }
@@ -1289,27 +1344,27 @@ display: none;
 }
 
 .residential article {
-	width: 50.6875%;
-	margin-bottom: 20px;
+	width: 70%;
+	margin: 0 auto 20px;
 }
 
 .residential img {
-	width: 46.354167%;
-	
-	float: right;
+	display: none;
 }
 
 .residential aside ul {
 	font-weight: 600;
-	column-count: 3;
-	-moz-column-count: 3;
-	-webkit-column-count: 3; 
-	-o-column-count: 3;
+	column-count: 1;
+	-moz-column-count: 1;
+	-webkit-column-count: 1; 
+	-o-column-count: 1;
 }
 
 .commercial {
-	margin: 40px auto;
-	padding: 0 1em 0 1em;
+		width: 95%;
+
+	margin: 40px auto 40px; 
+	padding: 0 2.0833333% 0 2.0833333%;
 }
 
 .commercial h2 {
@@ -1317,27 +1372,23 @@ display: none;
 }
 
 .commercial article {
-	width: 50.6875%;
-	float: right;
+	width: 70%;
+	margin: 0 auto 20px;
+	float: none;
 
 }
 
 .commercial img {
-	margin-bottom: 20px;
-	width: 46.354167%;
-	float: left;
+	display: none;
 }
 
-.commercial ul {
-	clear: left;
-}
 
 .commercial aside ul {
 	font-weight: 600;
-	column-count: 3;
-	-moz-column-count: 3;
-	-webkit-column-count: 3; 
-	-o-column-count: 3;
+	column-count: 1;
+	-moz-column-count: 1;
+	-webkit-column-count: 1; 
+	-o-column-count: 1;
 }
 
 .data {
@@ -1347,8 +1398,7 @@ display: none;
 }
 
 #harddrive {
-	margin: 0 auto 40px;
-	width: 46.354167%;
+	display: none;
 }
 
 
